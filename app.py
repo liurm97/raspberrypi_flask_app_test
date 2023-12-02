@@ -11,8 +11,8 @@ def render_home():
             "</h1>")
 
 
-@app.route("/greetings/<string: name>")
-def render_home(name):
+@app.route("/greetings/<string:name>")
+def render_greetings(name):
     return (f"<h1 style='display: flex; height: 100vh;justify-content: center; align-items: center;'>"
             f"How are you {name}"
             "</h1>")
