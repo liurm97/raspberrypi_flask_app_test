@@ -10,6 +10,3 @@ def render_home():
             "Hello To Raspberry Pi Flask App Test Environment"
             "</h1>")
 
-
-# if __name__ == "__main__":
-    # app.run(port=8000, debug=True)
